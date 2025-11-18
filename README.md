@@ -56,27 +56,26 @@ It is expressed as:
 ##  Code 
 ```scilab
 
-Gr = 50;
-w = 8;
+Gr = 22;
+l = 6;
 sigma = 9;  
 pmin = 1e-10;
-Gt = 10;
+Gt = 12;
 Pt = 0.5:0.5:100;   
-Rmax1 = (((Pt .* Gt .* Gr .* (w.^2) .* sigma) ./ (((4 * %pi).^2) .* pmin))).^(1/4);
+Rmax1 = (((Pt .* Gt .* Gr .* (l.^2).* sigma) ./ (((4 * %pi).^3) .* pmin))).^(1/4);
 subplot(3,1,1);
 plot(Pt, Rmax1);
-
-Pt = 15;
+Pt = 16;
 Gt = 0.1:0.1:9;     
-Rmax2 = (((Pt .* Gt .* Gr .* (w.^2) .* sigma) ./ (((4 * %pi).^2) .* pmin))).^(1/4);
+Rmax2 = (((Pt .* Gt .* Gr .* (l.^2) .* sigma) ./ (((4 * %pi).^3) .* pmin))).^(1/4);
 subplot(3,1,2);
 plot(Gt, Rmax2);
-
-Gt = 5;
+Gt = 14;
 pmin = 1e-14:1e-13:1e-9;  
-Rmax3 = (((Pt .* Gt .* Gr .* (w.^2) .* sigma) ./ (((4 * %pi).^2) .* pmin))).^(1/4);
+Rmax3 = (((Pt .* Gt .* Gr .* (l.^2) .* sigma) ./ (((4 * %pi).^3) .* pmin))).^(1/4);
 subplot(3,1,3);
 plot(pmin,Rmax3);
+
 
 
 
