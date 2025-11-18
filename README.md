@@ -85,14 +85,12 @@ plot(pmin,Rmax3);
 
 ## Output
 
-<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/a015361e-384d-4d29-9d6d-b99fbe40911f" />
-
-
-
+<img width="1918" height="878" alt="image" src="https://github.com/user-attachments/assets/2edb28c1-813f-4d33-bd6c-0e4f44ad9b2d" />
 
 ## Manual Calculation
 
-![WhatsApp Image 2025-11-13 at 12 52 31_00bc96de](https://github.com/user-attachments/assets/4e5118b6-39f1-4ab9-b65e-aebd95d0f8a4)
+![Radar  range](https://github.com/user-attachments/assets/9f5b72f8-2460-413d-9afc-dde79ba5e3a1)
+
 
 
 
